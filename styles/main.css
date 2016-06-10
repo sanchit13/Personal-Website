@@ -24,6 +24,7 @@ header a:hover{
   color:gray;
 }
 
+
 #backgroundImage{
     background-image: -webkit-linear-gradient(rgba(0,0,0, 0) 40%,rgba(0,0,0, 1) 100%), url(https://static.pexels.com/photos/1732/black-and-white-dawn-mountains-nature.jpg);
     background-image:  -moz-linear-gradient(rgba(0,0,0, 0) 40%,rgba(0,0,0, 1) 100%), url(https://static.pexels.com/photos/1732/black-and-white-dawn-mountains-nature.jpg;
@@ -53,6 +54,15 @@ header a:hover{
    width:100px;
    display:block;
    margin:0 auto;
+   -webkit-transition: all 0.5s linear;
+      -moz-transition: all 0.5s linear;
+       -ms-transition: all 0.5s linear;
+        -o-transition: all 0.5s linear;
+           transition: all 0.5s linear;
+ }
+
+ .logo:hover{
+   opacity: 0.3;
  }
 
 
@@ -64,8 +74,22 @@ header a:hover{
 
 #aboutMe .col-md-7 {
 text-align: left;
-padding-left: 15rem;
-padding-right:5rem;
+padding:1em;
+}
+
+@media screen and (max-width: 990px){
+  #aboutMe .col-md-7 {
+  text-align: justify;;
+  padding: 0 3em 0 3em;
+  }
+
+  #aboutMe h2{
+    text-align: center;
+  }
+  .myPicture{
+    margin:0 auto;
+  }
+
 }
 
 
@@ -80,11 +104,12 @@ padding-right:5rem;
   color:#999999;
 }
 
+
 .myPicture{
   width:250px;
   opacity: 0.5;
-  margin:auto;
-  margin-top: 2em;
+  margin:2em auto;
+  margin-bottom: 0em;
   border: solid 1px #737373;
 }
 
