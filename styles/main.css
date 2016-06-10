@@ -100,30 +100,37 @@ padding-right:5rem;
 }
 
 #mySkills{
-  width:100%;
-  padding-bottom: 5em;
+  padding-top:2em;
   background: #595959;
+  padding-bottom: 0em;
 }
 
-#mySkills ul{
-  display:inline-block;
-  padding-top:5rem;
-  padding-left: 25rem;
-}
-#mySkills li{
-  display:inline-block;
-  margin-right: 25rem;
+#mySkills i{
+  color:#808080;
+  font-size:7em;
+  display: block;
+  text-align: center;
+  transition: color .8s ease;
 }
 
-.skillIcons{
-  color:#e6e6e6;
-  font-size:10em;
-  transition: color .8s ease-in-out;
+#alignNumber{
+  display: inline-block;
+  vertical-align: 12%;
+}
+#mySkills i:hover{
+  color:white;
 }
 
-.skillIcons:hover{
-  color:#999;
+#mySkills h2{
+  font-family: Raleway,sans-serif;
+  color:white;
+  text-align: center;
 }
+
+#mySkills .col-sm-12{
+  padding-bottom: 3em;
+}
+
 
 #myPortfolio{
   width:100%;
