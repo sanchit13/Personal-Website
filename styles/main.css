@@ -14,51 +14,16 @@ overflow: hidden;
 }
 
 /* END BASIC PAGE PROPERTIES */
-.navigationBar {
-	background-color: rgba(0,0,0,0.3);
-	padding: 0;
-	width:100%;
-}
-
-nav ul {
-  list-style: none;
-  text-align: center;
-}
-nav ul li {
-  display: inline-block;
-
-}
-
-nav ul li a{
-  display: block;
-	padding:.5em;
-	text-decoration: none;
-	margin: 0 2em;
-	color: white;
-	text-transform:uppercase;
-	font-family: Raleway,sans-serif;
-	position: relative;
-	transition: all 1s ease;
-	font-size: 16px;
-}
-
-nav ul li a:hover{
-	color:black;
-	background-color: white;
-	text-decoration: none;
-}
-
 
 #backgroundImage{
-    background-image: -webkit-linear-gradient(rgba(0,0,0, 0) 40%,rgba(0,0,0, 1) 100%), url(../images/blur.jpg);
-    background-image:  -moz-linear-gradient(rgba(0,0,0, 0) 40%,rgba(0,0,0, 1) 100%), url(../images/blur.jpg);
-    background-image:  -o-linear-gradient(rgba(0,0,0, 0) 40%,rgba(0,0,0, 1) 100%), url(../images/blur.jpg);
-    background-image: linear-gradient(rgba(0,0,0, 0) 0%,rgba(0,0,0, 1) 100%) , url(../images/blur.jpg);
-  	filter: blur(1px);
+    background-image: -webkit-linear-gradient(rgba(0,0,0, 0) 0%,rgba(0,0,0, 0.5) 100%) , url(../images/blur.jpg);
+    background-image:  -moz-linear-gradient(rgba(0,0,0, 0) 0%,rgba(0,0,0, 0.5) 100%) , url(../images/blur.jpg);
+    background-image:  -o-linear-gradient(rgba(0,0,0, 0) 0%,rgba(0,0,0, 0.5) 100%) , url(../images/blur.jpg);
+    background-image: linear-gradient(rgba(0,0,0, 0) 0%,rgba(0,0,0, 0.7) 100%) , url(../images/blur.jpg);
     width:100%;
-    min-height: 100vh;
     background-position: center top;
     background-size: cover;
+		padding-bottom:30em;
  }
 
  .introductionSegment{
@@ -98,8 +63,7 @@ nav ul li a:hover{
 #aboutMe{
   width:100%;
   padding-bottom: 3em;
-  background: #262626;
-
+  background:#333333;
 }
 
 #aboutMe .col-md-7 {
@@ -126,12 +90,15 @@ padding:1em;
 #aboutMe h2{
   padding-bottom: .2em;
   font-family:Raleway,sans-serif;
-  color:#e6e6e6;
+  color:#3BB4A1;
+  font-size: 28px;
 
 }
 
 #aboutMe p{
-  color:#999999;
+  color:#B3B3B3;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
 }
 
 
@@ -156,12 +123,12 @@ padding:1em;
 
 #mySkills{
   padding-top:2em;
-  background: #595959;
+  background: #02645b;
   padding-bottom: 0em;
 }
 
 #mySkills i{
-  color:#808080;
+  color:#029788;
   font-size:7em;
   line-height: 100px;
   display: block;
@@ -175,12 +142,12 @@ padding:1em;
 }
 
 #mySkills i:hover{
-  color:white;
+  color:#03b09f;
 }
 
 #mySkills h1{
   font-family:Raleway,sans-serif;
-  color:#000000;
+  color:#838495;
   text-align: center;
   padding:0;
   margin: 0;
@@ -190,6 +157,7 @@ padding:1em;
   word-spacing: 4px;
   letter-spacing: 0;
 }
+
 @media screen and (max-width: 990px){
   #mySkills h1{
     margin-bottom:.5em;
@@ -198,7 +166,7 @@ padding:1em;
 
 #mySkills h2{
   font-family: Raleway,sans-serif;
-  color:white;
+  color:#babbc4;
   text-align: center;
 }
 
@@ -224,5 +192,10 @@ padding:1em;
 #myPortfolio{
   width:100%;
   padding-bottom: 10em;
-  background: #d9d9d9;
+  background:#880E4F;
+}
+
+#myPortfolio img{
+  height: 300px;
+  margin: 2% 5%;
 }
