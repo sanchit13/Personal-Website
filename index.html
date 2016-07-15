@@ -9,8 +9,11 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/3.1.0/octicons.min.css">
     <link rel="stylesheet" href="vendor/font-awesome-4.6.3/css/font-awesome.min.css" type="text/css">
-    <link href='https://fonts.googleapis.com/css?family=Raleway:100' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab" rel="stylesheet">
+    <link rel="stylesheet" href="vendor/owl/owl-carousel/owl.carousel.css">
+    <link rel="stylesheet" href="vendor/owl/owl-carousel/owl.theme.css">
     <link rel="stylesheet" href="styles/main.css" type="text/css">
     <link rel="stylesheet" href="vendor/animate.css" type="text/css">
 
@@ -23,74 +26,156 @@
 
 
        <!-- Header Section with Main background picture -->
-      <div id="backgroundImage">
+      <div class="backgroundImage">
         <header>
             <div class="introductionSegment animated bounceInUp">
               <img src="images/newlogo.png" class="logo img-responsive"/>
-              <h1>WEB DEVELOPMENT</h1>
-              <h1>DEDICATED TO INNOVATING</h1>
+              <h1 class="blueText">WEB DEVELOPMENT</h1>
+              <h1 class="redText" id="modifyText"></h1>
             </div>
         </header>
       </div>
         <!-- End Header Section -->
 
-        <!-- About Me Section -->
-         <div id="aboutMe">
-           <div class = "row">
-             <div class="col-md-7 col-md-offset-1 col-sm-12">
-                <h2>About Me</h2>
-                <p>
-                Hi. I'm currently an undergraduate student majoring in Computer Science and Statistics at the University of Illinois @ Urbana-Champaign. I reign from New York (I don't bite). I've come to develop a love/hate relationship with web development, from trying to spend hours tweaking and experimenting in order to create the perfect scheme and design, to gleaming in satisfaction from my work. In my free time I enjoy cooking, reading, meditating and rewatching old seasons of Game Of Thrones. I plan to hone with front-end work and develop a better eye for design.
-                </p>
-              </div>
-              <div class="col-md-4 col-sm-12">
-                <img src="https://scontent-lga3-1.xx.fbcdn.net/t31.0-8/13130850_10206095152926977_2822296489218854554_o.jpg"  class="img-responsive img-circle myPicture">
-              </div>
-            </div>
-           </div>
 
-        <!-- End of About Me Section -->
+    <!-- About Section with myPicture -->
 
+    <div class = "aboutSection">
+      <div class="row">
 
+        <div class="col-md-6 col-xs-12 noPad">
+          <div class="aboutPicture"></div>
+        </div>
 
-       <!-- My Skills Section -->
-        <div id="mySkills">
-          <div class="row">
+        <div class="col-md-6 col-xs-12">
 
-            <div class="col-md-4 col-sm-12">
-                <i class="fa fa-html5 skillIcons"></i>
-                <h2 class ="firstMovement">HTML<span id="alignNumber">5</span></h2>
-              </div>
-              <div class="col-md-4 col-sm-12">
-                 <i class="fa fa-code skillIcons"></i>
-                 <h2 class ="secondMovement">Java</h2>
-                 <h2 class ="secondMovement">C++</h2>
-                 <h2 class ="secondMovement">JavaScript</h2>
+           <div id="owl-example" class="owl-carousel">
+             <div class="row">
+               <div class="col-md-8 col-md-offset-2 col-xs-8 col-xs-offset-2">
+                 <div class="aboutMe">
+                   <p>Hi. I'm currently an undergraduate student majoring in Computer Science and Statistics at the University of Illinois at Urbana-Champaign. I reign from New York (I don't bite). I've come to develop a love/hate relationship with web development, from trying to spend hours tweaking and experimenting in order to create the <strong>perfect scheme and design</strong>, to gleaming in satisfaction from my work. In my free time I enjoy cooking, reading, meditating and rewatching old seasons of Game Of Thrones. I plan to hone my skills with <strong>front-end work</strong>  and develop a better eye for <strong>design</strong>.</p>
+                 </br>
+                   <h4>Sanchit Dhiman</h4>
+                   <img src="images/signature.png" class="signature"/>
+                 </div>
                </div>
-            <div class="col-md-4 col-sm-12">
-               <i class="fa fa-css3 skillIcons"></i>
-               <h2 class ="thirdMovement">CSS<span id="alignNumber">3</span></h2>
              </div>
 
-          </div>
+             <div class="row">
+               <div class="col-md-8 col-md-offset-2 col-xs-12 col-sm-offset-2 col-sm-8">
+                 <div class="table">
+                   <table>
+                    <tr>
+                      <td class="title">Name</td>
+                      <td class="break">:</td>
+                      <td>Sanchit Dhiman</td>
+                    </tr>
+
+                    <tr>
+                      <td class="title">Email</td>
+                      <td class="break">:</td>
+                      <td><a href="dhiman3@illinois.edu" target="_top">dhiman3@illinois.edu</a></td>
+                    </tr>
+
+                    <tr>
+                      <td class="title">City</td>
+                      <td class="break">:</td>
+                      <td>Champaign, IL and Clifton Park, NY</td>
+                    </tr>
+
+                    <tr>
+                      <td class="title">School</td>
+                      <td class="break">:</td>
+                      <td>University of Illinois at Urbana-Champaign</td>
+                    </tr>
+
+                   </table>
+                 </div>
+               </div>
+             </div>
+
+           </div>
         </div>
-      <!-- End of Skills Section -->
+      </div>
+    </div>
+<!-- End About Section-->
 
 
 
+<!--Start mySkills Section-->
+  <div class = "mySkills">
+    <div class="row">
 
-    <!-- My Portfolio Section -->
-     <div id="myPortfolio">
-       <div class="row">
-        <div class="col-md-6">
-          
-        </div>
-       </div>
-     </div>
-    <!-- End of My Portfolio Section -->
+      <div class="col-md-3 htmlSection">
+         <span class="fa-stack fa-lg fa-stack-2x icons">
+         <i class="fa fa-circle-thin fa-stack-2x"></i>
+         <i class="fa fa-html5 fa-stack-1x"></i>
+        </span>
+        <h4>HTML5</h4>
+      </div>
+
+      <div class="col-md-3 cssSection">
+         <span class="fa-stack fa-lg fa-stack-2x icons">
+         <i class="fa fa-circle-thin fa-stack-2x"></i>
+         <i class="fa fa-css3 fa-stack-1x"></i>
+        </span>
+
+      </div>
+
+      <div class="col-md-3 codeSection">
+         <span class="fa-stack fa-lg fa-stack-2x icons">
+         <i class="fa fa-circle-thin fa-stack-2x"></i>
+         <i class="fa fa-code fa-stack-1x"></i>
+        </span>
+
+      </div>
+
+      <div class="col-md-3 photoSection">
+         <span class="fa-stack fa-lg fa-stack-2x icons">
+         <i class="fa fa-circle-thin fa-stack-2x"></i>
+         <i class="fa fa-camera fa-stack-1x"></i>
+        </span>
+
+      </div>
 
     </div>
+  </div>
+
+
+      </div>
     <!-- End of Container-fluid -->
+
+
+
+
+
+ <!-- SCRIPTS GO HERE -->
+  <script src="js/jquery.js"></script>
+  <script src="js/typed.js"></script>
+  <script src="vendor/owl/owl-carousel/owl.carousel.js"></script>
+
+
+
+  <script>
+  $(function(){
+    $("#modifyText").typed({
+      strings: ["DEDICATED TO INNOVATING", "DESIGNING WITH A VISION"],
+      typeSpeed: 30,
+      backDelay:500,
+      backSpeed:30,
+      loop:true,
+      startDelay:300
+    });
+});
+ </script>
+
+
+<script>
+$(document).ready(function(){
+  $("#owl-example").owlCarousel({
+  });
+});
+</script>
 
   </body>
 </html>
