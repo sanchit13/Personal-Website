@@ -1,0 +1,65 @@
+.wrapper{
+	margin:1em 5%;
+}
+
+.wrapper:before, .wrapper:after {
+  display: table;
+  content: " ";
+}
+.wrapper:after{
+  clear: both;
+}
+
+/* Skills Style 2 */
+
+.baseColor{
+	width:100%;
+	color:#CCCCCC;
+}
+
+
+
+
+.baseColor .skillbar{
+	width: 100%;
+	height: 30px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	background: url("../images/stripe.png") repeat scroll 0 0 #e0e0e0;
+	position:relative;
+	margin-bottom:30px;
+}
+.baseColor .countBar{
+	height: 100%;
+	width:0px;
+	position:relative;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+}
+
+.baseColor .countBar.original{
+	background-color: #333333;
+}
+
+.baseColor .countBar.other{
+	background-color: #d9d9d9;
+}
+
+.baseColor .title{
+	font-family: "Roboto Slab";
+	font-size:14px;
+	font-weight:400;
+	padding-left:12px;
+	line-height:30px;
+	text-transform:uppercase;
+}
+.baseColor .count{
+	position:absolute;
+	top:0;
+	right:12px;
+	line-height:30px;
+	font-size:14px;
+	font-weight:400;
+}

@@ -1,11 +1,27 @@
+/* -----------------------------------------------------------
+TABLE OF CONTENTS:
+--------------------------------------------------------------
+1) Basic Page Layout
+2) Header
+3) About Me
+   a) Picture
+   b) Text
+4) Skills
+5)Portfolio
+  a)Experience
+  b)Vision
+6)Footer
 
-/* START BASIC PAGE PROPERTIES */
+-------------------------------------------------------------
+
+------------------------------------------------------------*/
+
+/* 1. START BASIC PAGE LAYOUT*/
 
 body{
 width:100%;
 height:100%;
 margin:0;
-padding:0;
 background-color:#FFF;
 }
 
@@ -15,10 +31,15 @@ padding: 0;
 overflow: hidden;
 }
 
-/* END BASIC PAGE PROPERTIES */
+.noPad{
+  padding: 0 !important;
+}
+
+/* 1. END BASIC PAGE PROPERTIES */
 
 
-/* COMPONENTS OF THE HEADER */
+/* 2. START HEADER */
+
 .backgroundImage{
     background-image: -webkit-linear-gradient(rgba(0,0,0, 0) 0%,rgba(0,0,0, 0.5) 100%) , url(../images/blur.jpg);
     background-image:  -moz-linear-gradient(rgba(0,0,0, 0) 0%,rgba(0,0,0, 0.5) 100%) , url(../images/blur.jpg);
@@ -43,13 +64,8 @@ overflow: hidden;
    transition: all 0.4s linear;
  }
 
-
- .blueText:hover{
-   color:#3BB4A1;
- }
-
- .redText:hover{
-   color:#862d59;
+ .introductionSegment h1:hover{
+   opacity: .5;
  }
 
  .logo{
@@ -68,11 +84,13 @@ overflow: hidden;
    opacity: 0.3;
  }
 
+ /* 2. END HEADER */
 
-/* END OF COMPONENTS OF THE HEADER */
 
 
-/* COMPONENTS OF THE ABOUT ME SECTION */
+/* 3. START ABOUT ME SECTION
+     a) The Picture
+ */
 
 
 .aboutSection{
@@ -81,10 +99,21 @@ overflow: hidden;
 .aboutPicture{
   background: url(../images/aboutMePic.png);
   background-size:cover;
+  background-position: top center;
   min-height: 700px;
   width: 100%;
   height: 100%;
 }
+
+
+/* 3. END ABOUT ME SECTION
+     a) The Picture
+ */
+
+
+ /* 3. START ABOUT ME SECTION
+      b) The Text
+  */
 
 .aboutMe{
   line-height: 33px;
@@ -104,6 +133,8 @@ overflow: hidden;
   width:150px;
   margin-top:.5em;
 }
+
+/* Second Page of The text */
 
 .table{
   margin-left:20%;
@@ -131,32 +162,90 @@ overflow: hidden;
   padding-right:15px;
 }
 
+/* 3. END ABOUT ME SECTION
+     b) The Text
+ */
+
+
+/* 4. START SKILLS */
 
 .htmlSection{
   background-color:#cccccc;
-  height:300px;
 }
 
 .cssSection{
   background-color:#a6a6a6;
-  height:300px;
 }
 
 .codeSection{
   background-color:#666666;
-  height:300px;
 }
 
 .photoSection{
-  height:300px;
   background-color: #404040;
 }
-.icons{
-  margin-top:5%;
-  color: #262626;
+
+.skillHeaderText{
+  display: inline-block;
+  font-family: "Roboto Slab";
+  }
+
+.icon{
+  text-align: center;
+  vertical-align: bottom;
 }
 
-
-.noPad{
-  padding: 0 !important;
+.lighterColor{
+   color:#d9d9d9;
 }
+
+.skillDescription{
+  padding:.5em 1em;
+  text-align: justify;
+}
+
+.altColor{
+  color:#cccccc;
+}
+/* 4. END SKILLS */
+
+
+/* 5. START PORTFOLIO
+     a) Experience
+ */
+
+.myPortfolio{
+  height:400px;
+}
+
+.workSection{
+ background-color:#262626;
+ min-height:400px;
+}
+
+/* 5. END PORTFOLIO
+     a) Experience
+ */
+
+
+ /* 5. START PORTFOLIO
+      b) Vision
+  */
+.visionSection{
+  background-color:#1a1a1a;
+  min-height:400px;
+}
+
+/* 5. END PORTFOLIO
+     b) Vision
+ */
+
+
+/* 6. START FOOTER */
+
+.myFooter{
+  min-height:100px;
+  background-color:#1e1515;
+}
+
+/* 6. END FOOTER */
