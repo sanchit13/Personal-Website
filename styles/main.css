@@ -223,6 +223,13 @@ overflow: hidden;
  min-height:400px;
 }
 
+.portfolioHeading{
+  font-family: Raleway;
+  font-weight: 100;
+  text-align: center;
+  color: #E6E6E6;
+}
+
 /* 5. END PORTFOLIO
      a) Experience
  */
