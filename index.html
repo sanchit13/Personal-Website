@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-/width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sanchit's Portfolio</title>
     <link rel="stylesheet" href="vendor/style2/css/style.css" type="text/css">
     <link rel="shortcut icon" href="vendor/style2/images/ico/favicon.png">
@@ -20,22 +20,22 @@
     <link rel="stylesheet" href="vendor/owl/owl-carousel/owl.theme.css">
     <link rel="stylesheet" href="styles/main.css" type="text/css">
     <link rel="stylesheet" href="vendor/animate.css" type="text/css">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
   </head>
 
-
   <body>
+    
     <div class="container-fluid">
-
        <!-- Header Section with Main background picture -->
-      <div class="backgroundImage">
-        <header>
-            <div class="introductionSegment animated bounceInUp">
-              <img src="images/newlogo.png" class="logo img-responsive"/>
-              <h1>WEB DEVELOPMENT</h1>
-              <h1 id="modifyText"></h1>
-            </div>
-        </header>
-      </div>
+       <div class="backgroundImage">
+         <header>
+             <div class="introductionSegment animated bounceInUp">
+               <img src="images/newlogo.png" class="logo img-responsive"/>
+               <h1>WEB DEVELOPMENT</h1>
+               <h1 id="modifyText"></h1>
+             </div>
+         </header>
+       </div>
         <!-- End Header Section -->
 
 
@@ -44,16 +44,16 @@
     <div class = "aboutSection">
       <div class="row">
 
-        <div class="col-md-6 col-xs-12 noPad">
+        <div class="col-md-6 col-xs-12">
           <div class="aboutPicture"></div>
         </div>
 
-        <div class="col-md-6 col-xs-12 noPad">
+        <div class="col-md-6 col-xs-12">
 
            <div id="owl-example" class="owl-carousel">
              <div class="row">
                <div class="col-md-8 col-md-offset-2 col-xs-8 col-xs-offset-2">
-                 <div class="aboutMe">
+                 <div class="aboutMe noPad">
                    <p>Hi. I'm currently an undergraduate student majoring in Computer Science and Statistics at the University of Illinois at Urbana-Champaign. I reign from New York (I don't bite). I've come to develop a love/hate relationship with web development, from trying to spend hours tweaking and experimenting in order to create the <strong>perfect scheme and design</strong>, to gleaming in satisfaction from my work. In my free time I enjoy cooking, reading, meditating and rewatching old seasons of Game Of Thrones. I plan to hone my skills with <strong>front-end work</strong>  and develop a better eye for <strong>design</strong>.</p>
                  </br>
                    <h4>Sanchit Dhiman</h4>
@@ -63,8 +63,8 @@
              </div>
 
              <div class="row">
-               <div class="col-md-8 col-md-offset-2 col-xs-12 col-sm-offset-2 col-sm-8">
-                 <div class="table">
+               <div class="col-md-8 col-md-offset-2 col-xs-12 col-sm-offset-2 col-sm-8 noPad">
+                 <div class="table noPad">
                    <table>
                     <tr>
                       <td class="title">Name</td>
@@ -106,13 +106,12 @@
 <!--Start mySkills Section-->
 <div class = "mySkills">
 
-
   <div class="row">
 
     <div class="col-md-3 col-sm-6 col-xs-12 htmlSection">
       <div class="row">
        <div class="col-md-12 col-xs-12 col-sm-12 icon">
-          <span class="fa-stack fa-lg fa-2x icon">
+          <span class="fa-stack fa-lg fa-2x">
             <i class="fa fa-circle fa-stack-2x"></i>
             <i class="fa fa-html5 fa-stack-1x fa-inverse"></i>
           </span>
@@ -138,9 +137,10 @@
 
 
       <div class="col-md-3 col-sm-6 col-xs-12 cssSection">
+
         <div class="row">
          <div class="col-md-12 col-xs-12 col-sm-12 icon">
-            <span class="fa-stack fa-lg fa-2x icon">
+            <span class="fa-stack fa-lg fa-2x">
               <i class="fa fa-circle fa-stack-2x"></i>
               <i class="fa fa-css3 fa-stack-1x fa-inverse"></i>
             </span>
@@ -151,27 +151,29 @@
         <p class ="skillDescription">Practicing writing clean DRY CSS code. In the process of experimenting with different frameworks and libraries to achieve desirable effects.</p>
 
         <div class="wrapper">
-          <div class="baseColor">
-            <div class="skillbar" dataPercent="65%">
-              <div class="countBar original">
-                <div class="title">CSS3</div>
-                <div class="count"></div>
-              </div>
-            </div>
-          </div>
-        </div>
+         <div class="baseColor">
+           <div class="skillbar" dataPercent="65%">
+             <div class="countBar original">
+               <div class="title">CSS3</div>
+               <div class="count"></div>
+             </div>
+           </div>
+         </div>
+       </div>
+
       </div>
 
       <div class="col-md-3 col-sm-6 col-xs-12 codeSection">
         <div class="row">
          <div class="col-md-12 col-xs-12 col-sm-12 icon">
-            <span class="fa-stack fa-lg fa-2x icon">
+            <span class="fa-stack fa-lg fa-2x">
               <i class="fa fa-circle fa-stack-2x lighterColor"></i>
               <i class="fa fa-code fa-stack-1x"></i>
             </span>
             <h2 class="skillHeaderText">Javascript</h2>
           </div>
         </div>
+
         <p class ="skillDescription altColor">Currently practicing vanilla Javascript with some basic jQuery, moving to move to a framework such as React.js or Meteor.js soon.</p>
 
         <div class="wrapper">
@@ -184,12 +186,13 @@
             </div>
           </div>
         </div>
+
       </div>
 
       <div class="col-md-3 col-sm-6 col-xs-12 photoSection">
         <div class="row">
          <div class="col-md-12 col-xs-12 col-sm-12 icon">
-            <span class="fa-stack fa-lg fa-2x icon">
+            <span class="fa-stack fa-lg fa-2x">
               <i class="fa fa-circle fa-stack-2x lighterColor"></i>
               <i class="fa fa-camera fa-stack-1x"></i>
             </span>
@@ -198,6 +201,7 @@
         </div>
 
         <p class ="skillDescription altColor">Possess a basic photo-editing skill-set, enough to design quality logos.</p>
+
         <div class="wrapper">
           <div class="baseColor" style="color:#262626">
             <div class="skillbar" dataPercent="40%">
@@ -208,13 +212,11 @@
             </div>
           </div>
         </div>
-      </div>
 
       </div>
 
-
+      </div>
     </div>
-  </div>
   <!--End mySkills Section-->
 
 
@@ -304,13 +306,6 @@ $(document).ready(function(){
 });
 </script>
 
-
-<script>
-$('.mySkills').masonry({
-// options
-  itemSelector: '.items'
-});
-</script>
 
   </body>
 </html>
