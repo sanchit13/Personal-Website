@@ -8,8 +8,8 @@ TABLE OF CONTENTS:
    b) Text
 4) Skills
 5)Portfolio
-  a)Experience
-  b)Vision
+  a)work
+  b)experience
 6)Footer
 
 -------------------------------------------------------------
@@ -216,7 +216,7 @@ overflow: hidden;
 
 
 /* 5. START PORTFOLIO
-     a) Experience
+     a) Work
  */
 
 .myPortfolio{
@@ -244,27 +244,36 @@ overflow: hidden;
 }
 
 /* 5. END PORTFOLIO
-     a) Experience
+     a) Work
  */
 
 
  /* 5. START PORTFOLIO
-      b) Vision
+      b) experience
   */
-.visionSection{
+.experienceSection{
   background-color:#1a1a1a;
   min-height:300px;
 }
 
+.experienceText{
+  font-family:"Roboto Slab";
+  text-align: justify;
+  font-weight: 300;
+  padding: 0 2em;
+  margin-top: 2%;
+  color: #cccccc
+}
+
 /* 5. END PORTFOLIO
-     b) Vision
+     b) experience
  */
 
 
 /* 6. START FOOTER */
 
 .myFooter{
-  background-color:#0f0f0f;
+  background-color:#151515;
 }
 
 .iconColor{
@@ -289,6 +298,6 @@ overflow: hidden;
 .copyrightText{
   color:#595959;
   text-align: center;
-  margin-bottom:1em;
+  margin-bottom:2em;
 }
 /* 6. END FOOTER */
